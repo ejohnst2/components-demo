@@ -44,6 +44,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 .trip-info p {
   margin: 0;
@@ -51,9 +52,6 @@
 .trip-info h2 {
   margin: 0;
 }
-.description {
-  padding: 20px;
-}
-.price {
+.item {
   padding: 20px;
 }
