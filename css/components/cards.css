@@ -1,0 +1,59 @@
+/* Breakfast card*/
+.card-breakfast {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+.card-breakfast h2 {
+  color: white;
+  font-size: 36px;
+  text-shadow: 1px 1px 1px;
+}
+
+/* Surf Card*/
+.card-surf {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.card-surf img {
+  height: 150px;
+  margin-right: 10px;
+}
+.card-surf h2 {
+  margin: 0;
+}
+.card-surf p {
+  margin: 0;
+}
+
+/* Trip Card */
+.card-trip {
+  background-color: white;
+}
+.card-trip img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+.trip-info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.trip-info p {
+  margin: 0;
+}
+.trip-info h2 {
+  margin: 0;
+}
+.description {
+  padding: 20px;
+}
+.price {
+  padding: 20px;
+}

@@ -1,0 +1,22 @@
+.banner {
+  background-image: url("../../images/background.jpg");
+  background-size: cover;
+  padding: 200px 150px;
+}
+
+.banner h1 {
+  color: white;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  text-shadow: 1px 1px 1px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.banner .btn-airbnb {
+  display: inline-block;
+  margin: 20px 0px;
+}
